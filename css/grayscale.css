@@ -224,10 +224,21 @@ a:focus {
   }
 }
 
-
-.about-section {
-margin-bottom: 50px;
+@media (min-width: 768px) {
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+  .intro .intro-body .brand-heading {
+    font-size: 100px;
+  }
+  .about-section {
+	margin-bottom: 50px;
+	background-color: rgba(255, 255, 255, 0.8);
+  }
 }
+
+
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
