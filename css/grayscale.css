@@ -247,6 +247,10 @@ a:focus {
   align-items: center;
 }
 
+.services-section {
+ background-color: blue;
+}
+
 .content-section {
   padding-top: 5px;
 }
