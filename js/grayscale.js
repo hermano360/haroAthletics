@@ -18,6 +18,11 @@ $(document).ready(collapseNavbar);
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
+	
+	$('.carousel').carousel({
+		interval:4000
+	});
+	
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
